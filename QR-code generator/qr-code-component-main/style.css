@@ -1,0 +1,61 @@
+:root{
+    --white: hsl(0, 0%, 100%);
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+    --card-border-radius: 15px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --qr-code-width: 250px;
+    --qr-code-height: 250px;
+    --font-family: 'Arial', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--lightGray);
+    font-family: var(--font-family);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    background-color: var(--white);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.QRCode{
+    width: var(--qr-code-width);
+    height: var(--qr-code-height);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 0.9em;
+    color: var(--grayishBlue);
+    line-height: 1.5;
+}
