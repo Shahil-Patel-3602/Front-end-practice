@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    height: 120vh;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    justify-content: center;
+    padding: auto;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+img{
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    margin: 10px;
+}
+
+.profile h1{
+    color: hsl(0, 0%, 100%);
+    margin: 4px;
+}
+.location{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 3px;
+}
+
+.bio{
+    color: hsl(0, 0%, 100%);
+    margin-top: 12px;
+    margin-bottom: -15px;
+}
+
+button{
+    width: 60%;
+    padding: 8px;
+    height: 50%;
+    margin: 6px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 550;
+}
+
+button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.attribution{
+    color: hsl(0, 0%, 100%);
+}
