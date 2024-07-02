@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: customFont-1;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width:70vw;
+    margin: 12em;
+    font-family: customFont-1;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-radius: 20px;
+    font-size: 1.85em;
+}
+
+.score{
+    margin: 40px;
+    font-size: 20px;
+    background: radial-gradient(circle at center, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 120px;
+    height: 120px;
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50%;
+}
+
+.result h3{
+    margin: -1em 0 0;
+    font-size: 1.2em;
+}
+
+.result p{
+    margin: 10px 0 0;
+    font-size: 0.55em;
+}
+
+.summary{
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.summary h2{
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8em 0;
+    border: 2px solid hsl(0, 100%, 67%);
+    padding: 8px;
+    border-radius: 5px;
+    background-color: hsl(0, 100%, 67%, 0.1);
+}
+
+.memory{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em 0;
+    border: 2px solid hsl(39, 100%, 56%);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em 0;
+    border: 2px solid hsl(166, 100%, 37%);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+
+.visual{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.8em 0;
+    border: 2px solid hsl(234, 85%, 45%);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+button{
+    padding: 12px;
+    background-color: hsl(224, 30%, 27%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-family: customFont-1;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+button:active{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+}
