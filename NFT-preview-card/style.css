@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit", sans-serif;
+}
+
+.card{
+    width: 30vw;
+    height: 100vh;
+    max-height: 1000px;
+    margin: 2em;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.photo{
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.photo img{
+    width: 92%;
+    height: 97%;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.photo img:active{
+    transform: scale(0.95);
+    background-color: hsl(178, 100%, 50%);
+}
+
+.content-section{
+    padding: 1.5em;
+    margin-top: -20px;
+}
+
+.content-section h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 450;
+    margin-bottom: 8px;
+}
+
+.content-section p{
+    color: hsl(0, 0%, 100%);
+    font-size: 17px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: hsl(215, 51%, 70%);
+}
+
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.time-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 28%;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.HorizontalLine{
+    margin-left: 25px;
+    margin-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+    width: 85%;
+    border-top: 2px solid hsl(215, 51%, 70%);
+    border-radius: 10px;
+}
+
+.creation{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.creation img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.creation p{
+    font-weight: 400;
+    color: hsl(215, 51%, 70%);
+}
+
+.creation span{
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
