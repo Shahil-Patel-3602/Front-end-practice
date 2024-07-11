@@ -37,6 +37,7 @@ body{
     height: 97%;
     padding: 6px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .photo img:active{
@@ -53,6 +54,11 @@ body{
     color: hsl(0, 0%, 100%);
     font-weight: 450;
     margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.content-section h1:active{
+    color: hsl(178, 100%, 50%); 
 }
 
 .content-section p{
@@ -122,4 +128,9 @@ body{
 .creation span{
     font-weight: 400;
     color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.creation span:active{
+    color: hsl(178, 100%, 50%);
 }
